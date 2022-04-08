@@ -32,4 +32,4 @@ jobs:
           charts_dir: helm
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          CR_RELEASE_NAME_TEMPLATE: "helm-charts-{{ .Version }}"
+          CR_RELEASE_NAME_TEMPLATE: "helm-charts-0.5.0"
