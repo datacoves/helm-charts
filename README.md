@@ -7,7 +7,11 @@ Helm charts published by datacoves
 1. Add git submodule under `repos`
 2. Create a symlink under `helm` to the right folder
 
-## Helm charts in this repo:
+## How to publish a new release?
+
+Bump version on `CR_RELEASE_NAME_TEMPLATE` in `.github/workflows/helm-release.yml`
+
+## Helm charts in this repo
 
 ### Superset
 
