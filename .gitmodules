@@ -1,0 +1,3 @@
+[submodule "repos/superset"]
+	path = repos/superset
+	url = git@github.com:datacoves/superset.git
