@@ -10,7 +10,8 @@ Helm charts published by datacoves
 ## How to publish a new release?
 
 1. Bump version on `CR_RELEASE_NAME_TEMPLATE` in `.github/workflows/helm-release.yml`
-2. Retrieve latest changes on git submodules
+2. Bump helm chart version (`chart.yaml`)
+3. Retrieve latest changes on git submodules
 
 
 ## Helm charts in this repo
