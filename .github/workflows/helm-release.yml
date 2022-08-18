@@ -21,6 +21,10 @@ jobs:
           git config user.name "$GITHUB_ACTOR"
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
+      - name: Unzip subcharts
+        run: |
+          cd cd repos/airflow/chart/charts && tar -xf postgresql-10.5.3.tgz
+
       - name: Install Helm
         uses: azure/setup-helm@v1
         with:
