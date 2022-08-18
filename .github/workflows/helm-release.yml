@@ -23,7 +23,7 @@ jobs:
 
       - name: Unzip subcharts
         run: |
-          cd cd repos/airflow/chart/charts && tar -xf postgresql-10.5.3.tgz
+          cd repos/airflow/chart/charts && tar -xf postgresql-10.5.3.tgz
 
       - name: Install Helm
         uses: azure/setup-helm@v1
