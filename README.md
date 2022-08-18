@@ -13,8 +13,9 @@ Helm charts published by datacoves
 2. Bump helm chart version (`chart.yaml`)
 3. Retrieve latest changes on git submodules
 
-
 ## Helm charts in this repo
+
+(Index)[https://datacoves.github.io/helm-charts/index.yaml]
 
 ### Superset
 
@@ -22,4 +23,12 @@ Helm charts published by datacoves
 helm repo add datacoves https://datacoves.github.io/helm-charts
 helm repo update
 helm install datacoves/superset
+```
+
+### Airflow
+
+```
+helm repo add datacoves https://datacoves.github.io/helm-charts
+helm repo update
+helm install datacoves/airflow
 ```
