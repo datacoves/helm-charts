@@ -1,6 +1,3 @@
-[submodule "repos/superset"]
-	path = repos/superset
-	url = git@github.com:datacoves/superset.git
 [submodule "repos/airflow"]
 	path = repos/airflow
 	url = git@github.com:datacoves/airflow.git

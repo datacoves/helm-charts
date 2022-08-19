@@ -17,14 +17,6 @@ Helm charts published by datacoves
 
 (Index)[https://datacoves.github.io/helm-charts/index.yaml]
 
-### Superset
-
-```
-helm repo add datacoves https://datacoves.github.io/helm-charts
-helm repo update
-helm install datacoves/superset
-```
-
 ### Airflow
 
 ```
