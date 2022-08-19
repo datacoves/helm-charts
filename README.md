@@ -15,7 +15,7 @@ Helm charts published by datacoves
 
 ## Helm charts in this repo
 
-(Index)[https://datacoves.github.io/helm-charts/index.yaml]
+[Review index.yaml](https://datacoves.github.io/helm-charts/index.yaml)
 
 ### Airflow
 
